@@ -1,0 +1,98 @@
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-family: Impact, serif;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+p {
+  text-align: left;
+}
+
+body {
+  background-color: burlywood;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+#header {
+  background-image: url(https://goop-img.com/wp-content/uploads/2017/04/human-design-TRU1790925-1.jpg);
+}
+
+#introduction {
+  width: 300px;
+  background-color: grey;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.blogarticle {
+  width: 80%;
+  background-color: grey;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.blogtitle {
+  text-align: center;
+  width: 80%;
+}
+
+.blogsummary {
+  text-align: left;
+  width: 25%;
+}
+
+.blogimage {
+  display: inline-block;
+  text-align: right;
+  width: 75%;
+}
+
+.blogarticle p {
+  display: inline-block;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+/*FOOTER*/
+
+footer {
+  font-size: 14px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}
