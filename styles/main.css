@@ -75,6 +75,11 @@ hr {
   margin-top: 25px;
 }
 
+.maxieHeadshot {
+  max-width: 80%;
+  width: 1000px;
+}
+
 /*FOOTER*/
 
 footer {
