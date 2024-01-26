@@ -65,6 +65,7 @@ hr {
   display: inline-block;
   text-align: right;
   width: 75%;
+  align: center;
 }
 
 .blogarticle p {
