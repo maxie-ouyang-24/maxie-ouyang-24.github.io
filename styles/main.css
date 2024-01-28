@@ -47,6 +47,8 @@ hr {
 .topnav {
   background-color: #474f7a;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .topnav a {
