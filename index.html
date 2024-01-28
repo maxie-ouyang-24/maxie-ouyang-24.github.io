@@ -10,123 +10,68 @@
   <body>
     <main>
     <div class="topnav">
-    <a class="active" href="#home">Home</a>
-    <a href="Tech Blog" href="#techblog">Tech</a>
-    <a href="Core Blog" href="#coreblog">Core</a>
-    <a href="Reflections" href="#reflections">Reflections</a>
+    <a class="active" href="#home">HOME</a>
+    <a href="Tech Blog" href="#techblog">TECH</a>
+    <a href="Core Blog" href="#coreblog">CORE</a>
+    <a href="Reflections" href="#reflections">REFLECTIONS</a>
     </div>
     
-        <!-- to do: get a background color/image-->
     <div id="header">
-        <h1>Welcome to Maxie's Blog/h1> 
-        <h2>Tech and Core</h2>
+        <h1>Welcome to Maxie's Blog!</h1> 
+        <h2>😊💕👋</h2>
       </div>
 
+      <section class="introbackground">
       <div id="introduction">
         <h2>Introduction</h2>
         <figure>
           <div>
-        <!-- to do: make this image media query friendly-->
-        <img class="maxieHeadshot" src="https://cdn.showcast.com.au/actor-photos-high/fcc8bf3e-8776-4b28-846c-5aced27806e7.jpg" alt="Picture of Maxie">
-        <!-- to do: place the image next to About-->
+        <img id='maxieimage' src="https://cdn.showcast.com.au/actor-photos-high/fcc8bf3e-8776-4b28-846c-5aced27806e7.jpg" alt="Picture of Maxie">
         <figcaption><em>Maxie Ouyang</em></figcaption>
       </figure>
     </div>
+  </section>
 
+    <div><section class="About">
         <h3>About</h3>
-        <p>This page explores all the different components of HTML, CSS and Javascript.  
-          Each blog post will focus on a specific section such as:
-          <ul>
-            <li>Inline vs Inline Blocks</li>
-            <li>Learning Plan</li>
-            <li>Identity Values</li>
-            <li>and more...</li>
-          </ul> 
-        </p>
-      </div>
-      <hr>
+        <p>Hello there! Follow my journey as I learn the foundations of coding.
+        <p><b>My blog is split into two sections: Tech and Core. </b></p>
+        <p>Tech blog articles focus on explaining fundamental aspects of tech.</p>
+        <p>Core blog articles focus on explaining concepts around mindset and soft skills.</p>
+      </section></div>
 
+      <section class="BlogMenu">
       <div>
-        <section>
         <article class="blogarticle">
           <p class="blogtitle"><a href="https://maxie-ouyang-24.github.io/blog/html-css.html">Display: Inline vs Inline Blocks</a></p>
-          <p class="blogsummary">Summary</p><img class="blogimage" src="https://images.squarespace-cdn.com/content/v1/614c19797c6ae411889e4898/0cbf11f4-ac3e-4e54-8513-24025968f930/Screen+Shot+2023-07-22+at+8.27.32+PM.png?format=300w" alt="panda with glasses and laptop" target="_blank">
         </article>
-        </section>
       </div>
 
       <div>
-        <section>
         <article class="blogarticle">
-          <p class="blog title"><a href="https://maxie-ouyang-24.github.io/learning-plan.html">Learning Plan</a></p>
-          <p class="blog summary">Summary</p><img class="blogimage" src="https://images.squarespace-cdn.com/content/v1/614c19797c6ae411889e4898/6dad7428-ed0d-4fa3-a8ea-217fcdcc3d21/Screen+Shot+2023-07-22+at+8.26.35+PM.png?format=300w" alt="panda reading a book" target="_blank">
+          <p class="blogtitle"><a href="https://maxie-ouyang-24.github.io/learning-plan.html">Learning Plan</a></p>
         </article>
-        </section>
       </div>
 
       <div>
-        <section>
         <article class="blogarticle">
           <p class="blogtitle"><a href="https://maxie-ouyang-24.github.io/identity-values.html">Identity-Values</a></p>
-          <p class="blogsummary">Summary</p><img class="blogimage" src="https://images.squarespace-cdn.com/content/v1/614c19797c6ae411889e4898/06e9deb7-c231-420c-8546-95fbde5a7a9c/Screen+Shot+2023-07-22+at+8.29.26+PM.png?format=300w" alt="panda with a red heart" target="_blank">
         </article>
-        </section>
       </div>
 
       <div>
-        <section>
         <article class="blogarticle">
           <p class="blogtitle"><a href="https://maxie-ouyang-24.github.io/blog/te-houtaewa-template.html">Te Houtaewa</a></p>
-          <p class="blogsummary">Summary</p><img class="blogimage" src="https://images.squarespace-cdn.com/content/v1/614c19797c6ae411889e4898/62b6a9d0-03e6-4269-a41c-6c1f4fc5587c/Screen+Shot+2023-07-22+at+8.35.06+PM.png?format=300w" alt="panda with a phone" target="_blank">
         </article>
-        </section>
       </div>
 
       <div>
-        <section>
         <article class="blogarticle">
           <p class="blogtitle"><a href="https://maxie-ouyang-24.github.io/blog/javascript-dom.html">Javascript Fundamentals</a></p>
-          <p class="blogsummary">Summary</p><img class="blogimage" src="https://images.squarespace-cdn.com/content/v1/614c19797c6ae411889e4898/62b6a9d0-03e6-4269-a41c-6c1f4fc5587c/Screen+Shot+2023-07-22+at+8.35.06+PM.png?format=300w" alt="panda with a phone" target="_blank">
         </article>
-        </section>
       </div>
 
-        <hr>
-      <div class="form" id="contact form">
-        <section>
-          <h2>Contact Form</h2>
-          <!-- to do: add a form URL or file-->
-          <form action="insert URL">
-            <fieldset>
-              <legend>What Human Design Type Are You?</legend>
-              <label><input id="Manifestor" type="radio" name="HD-Type" value="Manifestor"> Manifestor</label>
-              <label><input id="Manifesting Generator" type="radio" name="HD-Type" value="Manifesting Generator"> Manifesting Generator</label>
-              <label><input id="Generator" type="radio" name="HD-Type" value="Generator"> Generator</label>
-              <label><input id="Projector" type="radio" name="HD-Type" value="Projector"> Projector</label>
-              <label><input id="Reflector" type="radio" name="HD-Type" value="Reflector"> Reflector</label>
-              <input type="text" name="comment" placeholder="Write a comment" required>
-            </fieldset>
-            <fieldset>
-              <legend>What's your Authority Type?</legend>
-              <input id="emotional" type="checkbox" name="emotional" value="emotional">
-              <label for="emotional">Emotional</label> 
-              <input id="sacral" type="checkbox" name="sacral" value="sacral">
-              <label for="sacral">Sacral</label> 
-              <input id="splenic" type="checkbox" name="splenic" value="splenic">
-              <label for="splenic">Splenic</label> 
-              <input id="environment-noinner" type="checkbox" name="environment-noinner" value="environment-noinner">
-              <label for="environment-noinner">Environment/No Inner</label> 
-              <input id="self-projected" type="checkbox" name="self-projected" value="self-projected">
-              <label for="self-projected">Self Projected</label> 
-            </fieldset>
-            <button type="Submit">Submit</button>
-          </form>
-        </section>
-      </div>
-
-  </main>
-  </body>
-    <hr class="bottom-line">
+      </section>
   <footer>
     <p>Copyright 2024 - <a href="https://maxie-ouyang-24.github.io/index.html">Maxie's Tech Blog</a></p>
   </footer>
